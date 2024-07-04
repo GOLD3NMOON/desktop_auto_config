@@ -2,7 +2,6 @@
   "linux": {
     "ARCH": [
         "sudo pacman -Syu --noconfirm",
-        "sudo pacman -S git --noconfirm",
         "sudo pacman -S clang --noconfirm",
         "sudo pacman -S fakeroot --noconfirm",
         "sudo pacman -S flatpak --noconfirm",
@@ -13,14 +12,7 @@
         "sudo pacman -R firefox --noconfirm",
         "flatpak install flathub net.waterfox.waterfox -y",
         "flatpak install flathub com.github.tchx84.Flatseal -y",
-        "flatpak install flathub com.obsproject.Studio -y",
-        "mkdir ~/Downloads/aura-bin",
-        "git clone https://aur.archlinux.org/aura-bin.git ~/Downloads/aura-bin",
-        "cd ~/Downloads/aura-bin",
-        "makepkg --noconfirm",
-        "git clone https://aur.archlinux.org/vscodium-bin.git ~/Downloads/vscodium",
-        "cd ~/Downloads/vscodium",
-        "makepkg --noconfirm"
+        "flatpak install flathub com.obsproject.Studio -y"
       ]
    }
 }
