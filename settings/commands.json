@@ -9,10 +9,10 @@
         "sudo pacman -S steam --noconfirm",
         "sudo pacman -S discord --noconfirm",
         "sudo pacman -S ventoy --noconfirm",
+        "sudo pacman -S obs-studio --noconfirm",
         "sudo pacman -R firefox --noconfirm",
         "flatpak install flathub net.waterfox.waterfox -y",
-        "flatpak install flathub com.github.tchx84.Flatseal -y",
-        "flatpak install flathub com.obsproject.Studio -y"
+        "flatpak install flathub com.github.tchx84.Flatseal -y"
       ]
    }
 }
